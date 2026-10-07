@@ -1,0 +1,7 @@
+# Core Indemnity Form Generator uses standard library exclusively:
+# - xml.etree.ElementTree (OOXML parsing & assembly)
+# - zipfile (DOCX archive unpack/repack)
+# - datetime, struct, re, os, shutil
+
+# Optional development & testing utilities:
+pytest>=7.0.0

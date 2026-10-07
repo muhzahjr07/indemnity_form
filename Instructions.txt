@@ -1,0 +1,18 @@
+Get company details and fill the form from /data folder,
+Name of company - UPPERCASE Calibri size 10
+Company Registration No. - UPPERCASE Calibri size 10
+Registered Office - UPPERCASE Calibri size 10
+Relevant instruction / filing / transaction (if any) - ALL
+Effective Date - Fill Incorporation Date (Format - 15TH NOV 2022) TH superscript
+
+
+Directors - Full name UPPERCASE Calibri size 10
+
+Make sure all are in same format as sample in /final folder
+
+Seperate them in dedicated folder inside final, make two files, one _draft and one _signed
+signed date should be 7 days from incorporation date.
+dont forget to add signature to shareholder details as well. and signed date same as company's signed date.
+make sign image a little larger to look realistic.
+font of local and foreign address text (the title, not address) should be bold and underlined.
+capitalized each word of addresses, (not registered address in page 01)

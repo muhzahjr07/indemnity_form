@@ -1,0 +1,66 @@
+# ==========================================
+# Confidential Client Data & Statutory Scans
+# ==========================================
+data/
+signatures of clients/
+final/
+scratch/
+
+# Raw OCR and extracted client databases
+all_data_folders_ocr.json
+true_extracted_company_data.json
+audit_report.txt
+company_summary_audit.txt
+*.bak
+
+# Confidential catalogs containing personal identifying information (PII)
+companies_catalog.py
+companies_catalog_pre_patch.py.bak
+companies_catalog.py.bak
+
+# Confidential Word documents & temporary files
+*.docx
+~$*.docx
+
+# Audit logs and reports containing personal details
+*_audit.txt
+*_extracted.json
+
+# Internal scratch audit scripts
+audit_*.py
+audit_*.ps1
+cache_*.py
+compare_*.py
+deep_*.py
+dump_*.py
+extract_*.py
+full_audit.py
+generate_forms.py
+inspect_*.py
+list_*.py
+ocr.ps1
+print_*.py
+rename_*.py
+repair_*.ps1
+test_*.ps1
+verify_*.py
+
+# ==========================================
+# Python Bytecode & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# ==========================================
+# Operating System & IDE Artifacts
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
