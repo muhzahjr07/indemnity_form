@@ -6,6 +6,8 @@ The **Corporate Indemnity Form Automation Engine** generates legally compliant, 
 
 Traditional document manipulation tools (such as standard python-docx wrappers) frequently strip OpenXML namespaces, distort embedded table dimensions, miscalculate EMUs for image drawings, or invalidate relationship graphs. This system uses direct **OOXML (Open Packaging Conventions)** synthesis via Python's standard library to achieve exact, bit-level layout fidelity.
 
+![Technical Architecture Pipeline](images/technical_architecture_flow.png)
+
 ```
                     +---------------------------+
                     |    Statutory Document     |
